@@ -10,6 +10,26 @@
 
 
 
+## [0.37.0](https://www.github.com/tuyennhv/js-libp2p/compare/v0.36.2...v0.37.0) (2022-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* types are no longer hand crafted, this module is now ESM only
+
+### Features
+
+* convert to typescript ([#1172](https://www.github.com/tuyennhv/js-libp2p/issues/1172)) ([199395d](https://www.github.com/tuyennhv/js-libp2p/commit/199395de4d8139cc77d0b408626f37c9b8520d28))
+
+
+### Bug Fixes
+
+* add transport manager to exports map and fix docs ([#1182](https://www.github.com/tuyennhv/js-libp2p/issues/1182)) ([cc60cfd](https://www.github.com/tuyennhv/js-libp2p/commit/cc60cfde1a0907ca68f658f6de5362a708189222))
+* expose getPublicKey ([#1188](https://www.github.com/tuyennhv/js-libp2p/issues/1188)) ([1473044](https://www.github.com/tuyennhv/js-libp2p/commit/147304449e5f8d3acb8b00bdd9588b56830667c6))
+* expose metrics and registrar, use dht for peer discovery ([#1183](https://www.github.com/tuyennhv/js-libp2p/issues/1183)) ([64bfcee](https://www.github.com/tuyennhv/js-libp2p/commit/64bfcee5093b368df0b381f78afc2ddff3d339a9))
+* update deps ([#1181](https://www.github.com/tuyennhv/js-libp2p/issues/1181)) ([8cca8e4](https://www.github.com/tuyennhv/js-libp2p/commit/8cca8e4bfc6a339e58b5a5efa8a84fd891aa08ee))
+* use placeholder dht/pubsub ([#1193](https://www.github.com/tuyennhv/js-libp2p/issues/1193)) ([5397137](https://www.github.com/tuyennhv/js-libp2p/commit/5397137c654dfdec431e0c9ba4b1ff9dee19abf1))
+
 ### [0.36.2](https://www.github.com/libp2p/js-libp2p/compare/v0.36.1...v0.36.2) (2022-01-26)
 
 
